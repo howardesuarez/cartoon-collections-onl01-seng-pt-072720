@@ -2,12 +2,12 @@ def roll_call_dwarves(dwarves)
   dwarves.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
 end
 
-def summon_captain_planet(planteer_calls)
-  planteer_calls.map { |planteer| planteer.capitalize + "!" }
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.map { |planeteer| planeteer.capitalize + "!" }
 end	
 
-def long_planteer_calls(planteer_calls)
-  planteer_calls.any? do |call|
+def long_planteer_calls(planeteer_calls)
+  planeteer_calls.any? do |call|
   call.length > 4
   end
 end	
