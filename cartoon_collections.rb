@@ -6,7 +6,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map { |planeteer| planeteer.capitalize + "!" }
 end	
 
-def long_planteer_calls(planeteer_calls)
+def long_planeteer_calls(planeteer_calls)
   planeteer_calls.all? do |call|
   call.length > 4
   end
